@@ -21,12 +21,19 @@ SpaceX offers launches at approximately $62 million, while competitors charge ov
 ## 🗂 Repository Structure
 
 ├── API-Data-Collection.ipynb          # Collects SpaceX launch data via API
+
 ├── Web-Scraping-DataCollection.ipynb  # Scrapes additional launch data from Wikipedia
+
 ├── Data-Wrangling.ipynb               # Cleans and preprocesses the data
+
 ├── EDA-SQL.ipynb                      # SQL-based Exploratory Data Analysis
+
 ├── EDA-with-Visualization.ipynb       # Visual EDA using Matplotlib, Seaborn, Plotly
+
 ├── Machine-learning-models.ipynb      # Builds and evaluates predictive models
+
 ├── Plotly_Dashboard.py                 # Interactive dashboard for insights
+
 └── README.md                           # Project documentation
 
 ---
