@@ -1,24 +1,24 @@
 ---
 
-🚀 SpaceX Falcon 9 First Stage Landing Prediction
+# 🚀 SpaceX Falcon 9 First Stage Landing Prediction
 
-🌟 Project Overview
+## 🌟 Project Overview
 
 SpaceX has revolutionized space travel with the Falcon 9 rocket, which can reuse its first stage, drastically reducing launch costs. This project aims to predict whether the Falcon 9 first stage will land successfully using historical launch data. Accurate predictions can help SpaceX and stakeholders estimate mission costs, optimize planning, and enhance operational efficiency.
 
 ---
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 SpaceX offers launches at approximately $62 million, while competitors charge over $165 million. This cost advantage comes from reusing the first stage. Predicting landing success is critical for reducing operational risks and ensuring cost-effective launches.
 
-Key Question:
+**Key Question:**
 
 > Can we predict the success of a Falcon 9 first stage landing based on historical launch parameters?
 
 ---
 
-🗂 Repository Structure
+## 🗂 Repository Structure
 
 ├── API-Data-Collection.ipynb          # Collects SpaceX launch data via API
 ├── Web-Scraping-DataCollection.ipynb  # Scrapes additional launch data from Wikipedia
@@ -31,7 +31,7 @@ Key Question:
 
 ---
 
-🧰 Tools & Technologies
+## 🧰 Tools & Technologies
 
 Languages: Python
 
@@ -47,7 +47,7 @@ Environment: Jupyter Notebook
 
 ---
 
-🛠 Methodology
+## 🛠 Methodology
 
 1. *Data Collection*
 
@@ -80,20 +80,20 @@ Built an interactive Plotly Dash dashboard to visualize launch data and predicti
 
 ---
 
-📈 Key Findings
+## 📈 Key Findings
 
-Predictive Accuracy: [Insert Accuracy]%
+Predictive Accuracy: 83.34%
 
 Key Features Influencing Success: Launch site, booster version, payload mass, orbit type
 
-Best Model: [Insert best-performing model name]
+Best Model: Logistic Regression, KNN, SVM
 
 
 > These insights highlight the major factors affecting Falcon 9 landing outcomes and can guide future mission planning.
 
 ---
 
-💻 How to Run the Project
+## 💻 How to Run the Project
 
 1. Clone the repository:
 
@@ -108,24 +108,12 @@ pip install -r requirements.txt
 
 3. Run the notebooks in order:
 
-1. API-Data-Collection.ipynb
-
-
-2. Web-Scraping-DataCollection.ipynb
-
-
-3. Data-Wrangling.ipynb
-
-
-4. EDA-SQL.ipynb
-
-
-5. EDA-with-Visualization.ipynb
-
-
-6. Machine-learning-models.ipynb
-
-
+  1. API-Data-Collection.ipynb
+  2. Web-Scraping-DataCollection.ipynb
+  3. Data-Wrangling.ipynb
+  4. EDA-SQL.ipynb
+  5. EDA-with-Visualization.ipynb
+  6. Machine-learning-models.ipynb
 
 
 4. Launch the interactive dashboard:
@@ -134,19 +122,13 @@ python Plotly_Dashboard.py
 
 ---
 
-📊 Presentation
-
-Link : 
-
----
-
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-🔗 References
+## 🔗 References
 
 SpaceX API
 
@@ -154,7 +136,7 @@ Wikipedia - Falcon 9
 
 IBM Data Science Capstone Guidelines
 
-###Author
+## Author
 
 Dimple Rana |
 Aspiring Data Scientist
